@@ -2,11 +2,16 @@
 
 body {
 	background-color: #ecf0f1;
+  letter-spacing: 1.6;
 }
 
 .wrapper {
 	background-color: #fff;
-	padding: 1.5em;
+	padding: 1.5em 1.5em 4em 1.5em;
+}
+
+.section-content {
+  margin-bottom: 1.5em;
 }
 
 .section-content p {
@@ -22,10 +27,20 @@ body {
 	margin-bottom: 0.75rem;
 }
 
-.section-content p a {
+.section-content p.main{
+  display:inline;
+}
+
+a.toggle {
 	font-size: 1rem;
 	font-weight: Bold;
 	text-decoration: none;
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+p.hidden {
+  margin-top: 1em;
 }
 
 ul {
@@ -40,17 +55,34 @@ li {
 	font-size: 1.2rem;
 }
 
-
 hr {
   margin: 2em 0;
 }
 
 a {
-	color: #e67e22;
+	color: #e74c3c;
 }
 
 a:hover {
-	color: #d35400;
+	color: #c0392b;
+}
+
+.date {
+	opacity: 0.4;
+}
+
+.printer-friendly {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.printer-friendly a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.printer-friendly a:hover {
+  text-decoration: underline;
 }
 
 .title-link, .title-link-disabled {
@@ -62,7 +94,7 @@ a:hover {
 
 .title-link i {
 	font-size: 1rem;
-	color: #e67e22 ;
+	color: #e74c3c;
 }
 
 .title-link:hover {
@@ -85,5 +117,10 @@ a:hover {
 	h2 {
 		margin-bottom: 1.5rem;
 	}
+
+  .printer-friendly {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
 
 }
