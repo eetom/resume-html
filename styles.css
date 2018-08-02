@@ -1,0 +1,17 @@
+/*Styles for Resume*/
+
+.wrapper {
+	width: 100%;
+	max-width: 800px;
+	margin: 3.5em auto;
+}
+
+.thirds-container {
+	display: flex;
+	margin-left: -1em;
+	margin-right: -1em;
+}
+
+.thirds {
+	margin: 0em 1em 2em 1em;
+}
