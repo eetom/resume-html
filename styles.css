@@ -29,6 +29,11 @@ p {
 
 a {
   font-size: 1.3125rem;
+  color: #e74c3c;
+}
+
+a:hover {
+  color: #c0392b;
 }
 
 .date {
