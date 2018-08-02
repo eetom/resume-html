@@ -1,4 +1,5 @@
 /*Styles for Resume*/
+/*Here is the base CSS for clean version*/
 
 * {
   font-family: 'Lato', sans-serif;
@@ -31,9 +32,9 @@ a {
 }
 
 .date {
-  font-size: 1.3125rem;
-  font-style: italic;
-  opacity: 0.6;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  padding-left: 5px;
 }
 
 .wrapper {
@@ -56,12 +57,25 @@ a {
   max-width: 768px;
 }
 
+hr {
+  margin: 3em 0;
+}
+
+a.disabled {
+  text-decoration: line-through;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/*One-off Styles*/
+
 .no-title {
   margin-top: 0;
 }
 
-hr {
-  margin: 3em 0;
+.aquired {
+  margin-top: 0;
+  font-size: 1rem;
 }
 
 
