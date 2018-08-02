@@ -59,14 +59,6 @@ hr {
   margin: 2em 0;
 }
 
-a {
-	color: #e74c3c;
-}
-
-a:hover {
-	color: #c0392b;
-}
-
 .date {
 	opacity: 0.4;
 }
